@@ -12,9 +12,9 @@ window.addEventListener("load", function() {
          event.preventDefault();
       }
       
-      else{
+         else{
          //alert(isNaN(fuelLevelInput.value));
-         if (!isNaN(pilotnameInput.value)|| !isNaN(copilotNameInput.value) || isNaN(fuelLevelInput.value) || isNaN(cargoMassInput.value)){
+      if (!isNaN(pilotnameInput.value)|| !isNaN(copilotNameInput.value) || isNaN(fuelLevelInput.value) || isNaN(cargoMassInput.value)){
            // console.log(typeof(pilotnameInput.value));
            // console.log(isNaN(fuelLevelInput.value));
             alert("Make sure to enter the valid information for each field!");
